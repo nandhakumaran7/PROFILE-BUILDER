@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100&family=Sarabun:ital,wght@1,100&family=Titillium+Web:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #fff2e7;
+    font-family: 'Titillium Web', sans-serif;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+#logo img{
+    width:110px;
+    height: 90px;
+}
+nav ul li{
+    margin: 0 10px;
+}
+nav{
+    background-color: rgb(20, 2, 7);
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    color: brown;
+}
+header{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    text-align: left;
+    align-items: center;
+    background-color: gray;
+}
+#bio img{
+    width: 20vw;
+    height: 60vh;
+    border: 2px solid black;
+    border-radius: 5000px;
+    margin: 35px;
+}
+#bio{
+    display: flex;
+    margin-top: 5%;
+}
+#bio p{
+    text-indent: 50px;
+}
+#portfolio{
+    text-align: center;
+    background-color:gray;
+    align-items: center;
+    height: 90vh;
+}
+#portfolio h3{
+    font-weight: 1000;
+    font-size: 3em;
+}
+hr{
+    width: 400px;
+    margin-left: 36vw;
+}
+#portfolio #photos3{
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    height: 70vh;
+} 
+#second img{
+    width: 20vw;
+    height: 45.9vh;
+}
+#first{
+    background-color: white;
+    height: 60vh; 
+}
+#second{
+    background-color: white;
+    height: 60vh;
+}
+#third{
+    background-color: white;
+    height: 60vh;
+}
+#skills {
+    text-align: center; 
+}
+#skill-title{
+    font-size: 2em;
+}
+#ref{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    font-size: 1.5vw;
+}
+#s li{
+    list-style: none;
+}
+#contacts img{
+    width: 50px;
+    height: 50px;
+}
+#footer{
+    background-color: black;
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+footer a{
+    text-decoration: none;
+    color: turquoise;
+}
+#conc form{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1em;
+    color: white;
+}
+#star{
+    display: flex;
+    align-items: inherit;
+    justify-content: space-around;
+} 
+#contacts{
+    margin: 0 20%;
+}
+progress[value]{
+    height: 10px;
+    width: 350px;
+   background-color: rgb(108, 214, 2);
+}
+::-webkit-progress-value{
+    background-color: rgb(234, 75, 75);
+}
+
+
+
+
